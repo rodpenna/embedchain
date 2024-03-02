@@ -5,6 +5,7 @@ llm:
     temperature: 0.5
     top_p: 1
     stream: true
+    base_url: 'https://55.55.55.55:8080'
 
 embedder:
   provider: huggingface
