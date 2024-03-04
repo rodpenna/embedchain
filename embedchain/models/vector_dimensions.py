@@ -10,4 +10,4 @@ class VectorDimensions(Enum):
     GOOGLE_AI = 768
     MISTRAL_AI = 1024
     NVIDIA_AI = 1024
-    OLLAMA = 1536
+    OLLAMA = 384
