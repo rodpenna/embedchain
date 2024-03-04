@@ -11,6 +11,8 @@ class OllamaEmbedderConfig(BaseEmbedderConfig):
         model: Optional[str] = None,
         base_url: Optional[str] = None,
         vector_dimension: Optional[str] = None,
+        api_key: Optional[str] = None,
+        deployment_name: Optional[str] = None,
     ):
         """
         Initialize a new instance of an embedder config class.
@@ -23,3 +25,5 @@ class OllamaEmbedderConfig(BaseEmbedderConfig):
         self.model = model or "nomic-embed-text"
         self.base_url = base_url or "http://localhost:11434"
         self.vector_dimension = vector_dimension
+        self.api_key = api_key
+        self.deployment_name = deployment_name
